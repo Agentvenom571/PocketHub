@@ -35,15 +35,7 @@ public class UserEventMatcher {
          */
         public final User from;
 
-        /**
-         * User being acted upon
-         */
-        public final User to;
 
-        private UserPair(final User from, final User to) {
-            this.from = from;
-            this.to = to;
-        }
     }
 
     /**
